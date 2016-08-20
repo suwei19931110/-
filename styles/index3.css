@@ -1,0 +1,27 @@
+.nav_first{
+    list-style: none;
+}
+.nav_first li{
+    width:150px;
+    height:30px;
+    float: left;
+    background: gray;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 1px;
+}
+.nav_first li:hover{
+    background: #e9e9e9;
+}
+.nav_first li ul{
+    list-style: none;
+    display: none;
+}
+.nav_first li ul li{
+    position: relative;
+    left:-40px;
+    top:0;
+}
+.nav_first li:hover ul{
+    background: #e9e9e9;
+}
